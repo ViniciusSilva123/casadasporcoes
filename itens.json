@@ -1,0 +1,249 @@
+{
+    "porcoes": 
+    [
+        {
+            "nome": "TULIPA / MEIO DA ASA",
+            "descricao": "Tulipa de Frango Switf 1kg, Frita e Temperada na Chapa",
+            "preco": 49.00,
+            "funcao": "mostrarNotificacaoPOR()"
+        },
+        {
+            "nome": "CARNE SECA COM MANDIOCA",
+            "descricao": "Carne Seca bem Saborosa. Acompanha: Mandioca e Tiras de Queijo Coalho",
+            "preco": 60.00,
+            "funcao": "mostrarNotificacaoPOR()"
+        },
+        {
+            "nome": "FRANGO A PASSARINHO",
+            "descricao": "Frango Swift, Frito e Temperado na Chapa. Acompanha: Ovos de Codorna, Azeitonas, Tomate e Limão",
+            "preco": 40.00,
+            "funcao": "mostrarNotificacaoPOR()"
+        },
+        {
+            "nome": "CALABRESA ACEBOLADA",
+            "descricao": "Feita na Chapa . Acompanha: Ovos de Codorna, Azeitona e Limão",
+            "preco": 49.00,
+            "funcao": "mostrarNotificacaoPOR()"
+        },
+        {
+            "nome": "CALABRESA COM BATATA",
+            "descricao": "Feita na Chapa. Acompanha: Ovos de Codorna e Azeitona",
+            "preco": 49.00,
+            "funcao": "mostrarNotificacaoPOR()"
+        },
+        {
+            "nome": "MANDIOCA FRITA",
+            "descricao": "Acompanha: Ovos de Codorna e Azeitonas",
+            "preco": 35.00,
+            "funcao": "mostrarNotificacaoPOR()"
+        },
+        {
+            "nome": "FRIOS MISTOS",
+            "descricao": "Salame, Ovos de Codorna e Azeitonas",
+            "preco": 48.00,
+            "funcao": "mostrarNotificacaoPOR()"
+        },
+        {
+            "nome": "NUGGETS",
+            "descricao": "15 unidades",
+            "preco": 24.00,
+            "funcao": "mostrarNotificacaoPOR()"
+        },
+        {
+            "nome": "ANÉIS DE CEBOLA",
+            "descricao": "Acompanha Molho Especial",
+            "preco": 30.00,
+            "funcao": "mostrarNotificacaoPOR()"
+        }
+    ],
+
+    "hamburguer": [
+        {
+          "nome": "X-BURGUER",
+          "descricao": "Maionese, Hamburguer 90g e Queijo",
+          "preco": 12.00,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-SALADA",
+          "descricao": "Alface, Tomate, Hamburguer 90g e Queija",
+          "preco": 13.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-SALADA DUPLO",
+          "descricao": "Alface, Tomate, Maionese, 2 Hamburguer 90g e 2 Queijos",
+          "preco": 14.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-BACON",
+          "descricao": "Alface, Tomate, Maionese, Hamburguer 90g e Bacon em Fatias",
+          "preco": 16.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-BACON COM CHEDDAR",
+          "descricao": "Alface, Tomate, Maionese, Hamburguer 90g, Queijo e Calabresa",
+          "preco": 18.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-CALABRESA",
+          "descricao": "Alface, Tomate, Maionese, Hamburguer 90g, Queijo e Calabresa",
+          "preco": 16.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-CALABRESA CATUPIRY",
+          "descricao": "Alface, Tomate, Maionese, Hamburguer 90g, Queijo, Calabresa e Catupiry Original",
+          "preco": 18.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-FRANGO",
+          "descricao": "Alface, Tomate, Maionese, Hamburguer de Frango e Queijo",
+          "preco": 13.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-FRANGO DUPLO",
+          "descricao": "Alface, Tomate, Maionese, 2 Hamburgueres de Frango e 2 Queijos",
+          "preco": 14.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-FRANGO COM CATUPIRY",
+          "descricao": "alface, Tomate, Maionese, Hamburguer de Frango, Queijo e Catupiry Original",
+          "preco": 15.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-EGG",
+          "descricao": "Alface, Tomate, Maionese, Hamburguer 90g, Queijo e Ovo",
+          "preco": 14.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-TUDO",
+          "descricao": "Alface, Tomate, Maionese, Hamburguer 90g, Queijo, Ovo, Bacon, Calabresa e Molho Especial",
+          "preco": 19.00,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-BURGUER",
+          "descricao": "Maionese, Hamburguer 90g e Queijo",
+          "preco": 15.00,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-CHICKEN",
+          "descricao": "Maionese, Alface, Tomate, Stake de Frango e Queijo",
+          "preco": 16.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        },
+        {
+          "nome": "X-BACON COM CHEDDAR E ANÉIS DE CEBOLA",
+          "descricao": "Alface, Tomate, Maionese, Hamburguer 90g, Cheddar",
+          "preco": 20.50,
+          "funcao": "mostrarNotificacaoHAM()"
+        }
+      ],
+
+      "combos": [
+        {
+          "nome": "BOX DE BURGUER",
+          "lanches": "3 X-BURGUER",
+          "descricao": "Batata Cheddar e Bacon, Nuggets e Aneis de Cebola",
+          "preco": 62.00,
+          "funcao": "mostrarNotificacaoCOM()"
+        },
+        {
+          "nome": "BOX DE SALADA",
+          "lanches": "3 X-SALADA",
+          "descricao": "Batata Cheddar e Bacon, Nuggets e Aneis de Cebola",
+          "preco": 72.00,
+          "funcao": "mostrarNotificacaoCOM()"
+        },
+        {
+          "nome": "BOX DE BACON",
+          "lanches": "3 X-BACON",
+          "descricao": "Batata Cheddar e Bacon, Nuggets e Aneis de Cebola",
+          "preco": 80.00,
+          "funcao": "mostrarNotificacaoCOM()"
+        },
+        {
+          "nome": "BOX DE MISTO",
+          "lanches": "1 X-SALADA, X-BACON E X-CALABRESA",
+          "descricao": "Batata Cheddar e Bacon, Nuggets e Aneis de Cebola",
+          "preco": 80.00,
+          "funcao": "mostrarNotificacaoCOM()"
+        },
+        {
+          "nome": "BOX INDIVIDUAL",
+          "lanches": "1 X-TUDO",
+          "descricao": "Batata Cheddar e Bacon, Nuggets e Cebola",
+          "preco": 42.00,
+          "funcao": "mostrarNotificacaoCOM()"
+        }
+      ],
+      
+      "batatas": [
+        {
+          "nome": "PEQUENA",
+          "preco": 12.00,
+          "funcao": "mostrarNotificacaoBAT()"
+        },
+        {
+          "nome": "GRANDE",
+          "preco": 17.00,
+          "funcao": "mostrarNotificacaoBAT()"
+        },
+        {
+          "nome": "PEQUENA C/ CHEDDAR E BACON",
+          "preco": 19.00,
+          "funcao": "mostrarNotificacaoBAT()"
+        },
+        {
+          "nome": "GRANDE C/ CHEDDAR E BACON",
+          "preco": 27.00,
+          "funcao": "mostrarNotificacaoBAT()"
+        }
+      ],
+
+      "bebidas": [
+        {
+          "nome": "REFRIGERANTE LATA",
+          "preco": 5.00,
+          "funcao": "mostrarNotificacaoBEB()"
+        }
+      ],
+
+      "adicionais1": [
+        {
+          "nome": "ADICIONAL CHEDDAR",
+          "preco": 2.50,
+          "funcao": "mostrarNotificacaoCHE()"
+        },
+        {
+          "nome": "ADICIONAL CATUPIRY",
+          "preco": 2.50,
+          "funcao": "mostrarNotificacaoCAT()"
+        }
+      ],
+      
+      "adicionais2": [
+        {
+          "nome": "ADICIONAL MOLHO VERDE",
+          "preco": 2.50,
+          "funcao": "mostrarNotificacaoMOL()"
+        },
+        {
+          "nome": "ADICIONAL MOLHO CHEDDAR",
+          "preco": 2.50,
+          "funcao": "mostrarNotificacaoMOL()"
+        }
+        
+      ]
+
+}

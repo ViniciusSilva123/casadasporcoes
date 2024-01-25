@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CasaDasPorções</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <div id="cart-container">
+    <div id="cart-toggle" onclick="toggleCart()">
+      🛒<span id="cart-count">0</span>
+    </div>
+    <div id="cart-content">
+      <!-- Carrinho de Compras Flutuante -->
+      <h1>Carrinho de Compras:</h1>
+      <div id="carrinho">
+
+      </div>
+
+      <div id="areatotal">
+        TOTAL:
+        <div id="total">R$ 0,00</div>
+      </div>
+
+      <div id="mais">
+        <p>
+          INFORMAÇÃO ADICIONAIS: <br />
+          <textarea rows="4" cols="50" id="info" type="text" class="text1" oninput="converterParaMaiusculas(this)"
+            placeholder="EX: X-BACON SEM TOMATE"></textarea>
+        </p>
+        <p>
+          ENDEREÇO: <br />
+          <textarea rows="3" cols="50" id="endereco" type="text" class="text1" oninput="converterParaMaiusculas(this)"
+            placeholder="BAIRRO / RUA / NUMERO / COMPLEMENTO"></textarea>
+        </p>
+        <p>
+          FORMA DE PAGAMENTO: <br />
+          <input type="radio" name="forma" id="PIX" checked />
+          <label for="PIX">PIX</label>
+          <input type="radio" name="forma" id="CARTÃO" />
+          <label for="CARTÃO">CARTÃO</label>
+          <input type="radio" name="forma" id="DINHEIRO" />
+          <label for="DINHEIRO">DINHEIRO</label>
+        </p>
+      </div>
+      <button id="botaoex" onclick="limparCarrinho()">Apagar Tudo</button>
+      <!-- Botão para enviar o conteúdo do carrinho para o WhatsApp -->
+      <button id="botaoex" onclick="exibirConteudoCarrinhoNoWhatsApp()">
+        Enviar para o WhatsApp
+      </button>
+    </div>
+  </div>
+
+  <div class="mainbv">
+    <div class="bemvindo">
+      <p>Bem Vindo a</p>
+      <h1>CasaDasPorções</h1>
+      <p>O que deseja?</p>
+    </div>
+    <div class="opcoes">
+      <a><button onclick="scrollToCategoria('categoria1')">
+          🍗 PORÇÕES
+        </button></a><br />
+      <a><button onclick="scrollToCategoria('categoria2')">
+          🍔 HAMBÚRGUERES
+        </button></a>
+      <a><button onclick="scrollToCategoria('categoria3')">
+          📦 COMBOS NO BOX
+        </button></a>
+    </div>
+    <img class="logo" src="imagens/logo2.png" alt="" />
+    <footer>
+      <p>PARA MAIS INFORMAÇÕES ACESSE:</p>
+      <div id="redes">
+        <a target="_blank"
+          href="https://api.whatsapp.com/send?phone=5511959331094&text=Boa+noite%2C+gostaria+de+mais+informações%21">
+          <img src="imagens/whatsapp_37229.png" alt="whatsapp" />
+          <p>WhatsApp</p>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/_casadasporcoes_?igshid=ZGUzMzM3NWJiOQ%3D%3D">
+          <img src="imagens/instagram.png" alt="instagram" />
+          <p>Instagram</p>
+        </a>
+        <a target="_blank" href="https://maps.app.goo.gl/LBdow3gd2NQzvjC98">
+          <img src="imagens/maps.png" alt="endereço" />
+          <p>Endereço</p>
+        </a>
+      </div>
+      <p>DE TERÇA A DOMINGO DAS 18:00 AS 00:30 ⏰</p>
+      <p>DELIVERY E SALÃO ERMELINO E REGIÃO 🛵</p>
+    </footer>
+  </div>
+
+  <div class="main">
+    <div class="titulo">
+      <img id="logo1" src="imagens/logo1.png" alt="cp" />
+      <div>
+        <h2 id="categoria1">🍗PORÇÕES</h2>
+      </div>
+    </div>
+    <p class="atencao">AVISO: SELECIONE PARA ADICIONAR AO CARRINHO! <br>
+      <span style="font-weight: bolder;">FRENTE DE R$5,00 ATÉ 6 KM!</span>
+    </p>
+    <h1 class="pao">TODOS OS LANCHES SÃO NO PÃO DE HAMBURGUER!</h1>
+
+
+    <div class="listapedidos porcoes"></div>
+    <div class="adicionais">
+      <div class="adicional batatas">
+        <h2>🍟BATATAS</h2>
+
+      </div>
+      <div class="adicional bebidas">
+        <h2>🥤BEBIDAS</h2>
+
+      </div>
+    </div>
+
+    <div class="titulo">
+      <img id="logo1" src="imagens/logo1.png" alt="cp" />
+      <div>
+        <h2 id="categoria2">🍔HAMBÚRGUERES</h2>
+      </div>
+    </div>
+
+    <div class="listapedidos hamburguer"></div>
+
+    <div class="adicionais">
+      <div class="adicional molho1">
+
+      </div>
+      <div class="adicional molho2">
+
+      </div>
+    </div>
+
+    <div class="titulo">
+      <img id="logo1" src="imagens/logo1.png" alt="cp" />
+      <div>
+        <h2 id="categoria3">📦 COMBOS NO BOX</h2>
+      </div>
+    </div>
+
+    <div class="listapedidos combos"></div>
+
+    <div class="adicionais">
+      <div class="adicional">
+        <h2>TODAS AS BOX ACOMPANHA MOLHO</h2>
+      </div>
+    </div>
+
+    <footer>
+      <p>PARA MAIS INFORMAÇÕES ACESSE:</p>
+      <div id="redes">
+        <a target="_blank"
+          href="https://api.whatsapp.com/send?phone=5511959331094&text=Boa+noite%2C+gostaria+de+mais+informações%21">
+          <img src="imagens/whatsapp_37229.png" alt="whatsapp" />
+          <p>WhatsApp</p>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/_casadasporcoes_?igshid=ZGUzMzM3NWJiOQ%3D%3D">
+          <img src="imagens/instagram.png" alt="instagram" />
+          <p>Instagram</p>
+        </a>
+        <a target="_blank" href="https://maps.app.goo.gl/LBdow3gd2NQzvjC98">
+          <img src="imagens/maps.png" alt="endereço" />
+          <p>Endereço</p>
+        </a>
+      </div>
+
+      <p>DE TERÇA A DOMINGO DAS 18:00 AS 00:30 ⏰</p>
+      <p>DELIVERY E SALÃO ERMELINO E REGIÃO 🛵</p>
+    </footer>
+  </div>
+
+  <div id="vn">Desenvolvido por: Vinicius Silva</div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
